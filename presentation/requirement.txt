@@ -1,0 +1,46 @@
+Hi. I hope you are having a good weekend.
+
+Please find the requirements for project proposals, due next Monday (Feb 17th), at the bottom of this email. Prepare a powerpoint presentation addressing the following 10 items. The main goal of this project is to design a ML model end to end (from ideation, data collection, ... to production). Especially pay attention to how details of production can impact ML model design, and vice versa.
+
+The normal time you need to assing to each slide is 3-10 minutes (have that in mind when you prepare a presentation). However for your proposals, plan to finish the whole presentation in 5 minutes, and we will spend about 5 minutes discussing items in your proposal.
+
+Ideally, later you will create a python pipeline that runs all of these steps and gives you the back test results for your robo adviser. So, you can test different combinations of these steps to see which combination gives the best results (like a gigantic grid search). We will discuss this in the class.
+
+Use AI frequently. For example, following is a question from ChatGPT and its answer, which can be used for some of the following items.
+
+How Are Quant Traders / Portfolio Managers Compared?
+In quantitative trading, candidates are primarily compared based on alpha generation—their ability to develop and execute trading strategies that consistently generate profits while managing risk.
+
+**The #1 Metric of Quality: ** Sharpe Ratio
+The Sharpe Ratio is the most critical metric in this field. It measures risk-adjusted returns, indicating how much excess return a strategy produces per unit of risk.
+
+Formula:
+Sharpe Ratio=E[Rp]−Rfσp\text{Sharpe Ratio} = \frac{E[R_p] - R_f}{\sigma_p}Sharpe Ratio=σp​E[Rp​]−Rf​​
+
+Where:
+
+E[Rp]E[R_p]E[Rp​] = Expected portfolio return
+RfR_fRf​ = Risk-free rate (e.g., U.S. Treasury yield)
+σp\sigma_pσp​ = Standard deviation of portfolio returns (volatility)
+A higher Sharpe Ratio means a more efficient strategy—generating higher returns for the same level of risk.
+
+Other Important Metrics:
+Annualized Return (%) – Raw return, but without adjusting for risk.
+Drawdown (%) – The maximum loss from a peak before a new high is achieved. Lower drawdowns = better.
+Win Rate (%) – Percentage of profitable trades vs. total trades.
+Profit Factor – Total profit divided by total loss. >1.5 is strong.
+Capacity / Market Impact – Can the strategy scale to larger capital without degrading performance?
+Requirements for the Project Proposal:
+
+1. GUI: At least one input form that shows information you get from the user and one output that shows information you present to the user. For example, you may want to include some graphs that show performance.
+Items 2 to 5 are related to building the AI/ML model.
+
+2. Data: Assets, Time Period, and Frequency (intraday, daily, …)
+3. Data Cleaning: Propose at least one rule for data cleaning. Example: you may want to exclude data right before and after important news (such as earning announcements, job reports, fed meetings, …) because you think price behavior on these days is very unpredictable. In case needed, make sure you can collect the required data. For example, the above example requires data on news.
+4.  Feature Engineering: Explain how you define your Y variable. Also propose at least 10 X variables. Make sure you can explain how to calculate the features on your data.
+5. Performance Metric: How will you assess performance of your model.
+6. Test(s)/Train split: How will you divide your data to test and train.
+7. As you know, the next two steps are data processing and model training. Explain how you are planning to do those.
+8. Strategy: Depending on how you define the Y variable, explain how you will define the strategy.
+9. Production – Database: What is the technology to keep the dataset up to date.
+10. Production – Trade Execution: Explain how your trading bot works. When does it buy/sell? What conditions are checked? Make sure your trade execution considers the exclusions criteria for step 3. Also, here you can add trading tricks that based on your experience you may think may help.
