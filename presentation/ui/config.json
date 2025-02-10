@@ -1,0 +1,14 @@
+{
+    "app_name": "Stock Buddy",
+    "app_description": "Your personal intelligent assistant",
+    "min_investment": 1000,
+    "investment_step": 500,
+    "risk_tolerance": ["Low", "Medium", "High"],
+    "investment_horizon": {
+      "min": 1,
+      "max": 30,
+      "default": 5
+    },
+    "preferred_sectors": ["Technology", "Healthcare", "Finance", "Energy", "Consumer Goods", "Utilities"]
+  }
+  
