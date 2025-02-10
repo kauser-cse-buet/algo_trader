@@ -9,6 +9,7 @@
       "max": 30,
       "default": 5
     },
-    "preferred_sectors": ["Technology", "Healthcare", "Finance", "Energy", "Consumer Goods", "Utilities"]
+    "preferred_sectors": ["Technology", "Healthcare", "Finance", "Energy", "Consumer Goods", "Utilities"],
+    "api_key": "YLULSP83IFW7B6E3"
   }
   

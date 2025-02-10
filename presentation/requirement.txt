@@ -44,3 +44,10 @@ Items 2 to 5 are related to building the AI/ML model.
 8. Strategy: Depending on how you define the Y variable, explain how you will define the strategy.
 9. Production – Database: What is the technology to keep the dataset up to date.
 10. Production – Trade Execution: Explain how your trading bot works. When does it buy/sell? What conditions are checked? Make sure your trade execution considers the exclusions criteria for step 3. Also, here you can add trading tricks that based on your experience you may think may help.
+
+
+
+Solution: 
+1. gui: 
+2. data: 
+https://www.alphavantage.co/documentation/
