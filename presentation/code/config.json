@@ -1,0 +1,77 @@
+{
+    "API_KEY": "YLULSP83IFW7B6E3",
+    "BASE_URL": "https://www.alphavantage.co/query",
+    "interval": "1min",
+    "data_dir": "C:\\Users\\kause\\OneDrive - The University of Texas at Dallas\\algo_trader\\presentation\\data\\historical_intraday",
+    "daily_download_limit": 1,
+    "tickers": [
+        "TSLA",
+        "AAPL",
+        "NVDA",
+        "AMD",
+        "AMZN",
+        "MSFT",
+        "NFLX",
+        "XOM",
+        "META",
+        "NKE",
+        "SPY"
+    ],
+    "progress": {
+        "TSLA": {
+            "start_month": "2023-01",
+            "end_month": "2024-12",
+            "status": "downloaded"
+        },
+        "AAPL": {
+            "start_month": "2023-01",
+            "end_month": "2024-12",
+            "status": "downloaded"
+        },
+        "NVDA": {
+            "start_month": "2023-01",
+            "end_month": "2024-12",
+            "status": "downloaded"
+        },
+        "AMD": {
+            "start_month": "2023-01",
+            "end_month": "2024-12",
+            "status": "downloaded"
+        },
+        "AMZN": {
+            "start_month": "2023-01",
+            "end_month": "2024-12",
+            "status": "downloaded"
+        },
+        "MSFT": {
+            "start_month": "2023-01",
+            "end_month": "2024-12",
+            "status": "downloaded"
+        },
+        "NFLX": {
+            "start_month": "2023-01",
+            "end_month": "2024-12",
+            "status": "downloaded"
+        },
+        "XOM": {
+            "start_month": "2023-01",
+            "end_month": "2024-12",
+            "status": "downloaded"
+        },
+        "META": {
+            "start_month": "2023-01",
+            "end_month": "2024-12",
+            "status": "downloaded"
+        },
+        "NKE": {
+            "start_month": "2023-01",
+            "end_month": "2024-12",
+            "status": "downloaded"
+        },
+        "SPY": {
+            "start_month": "2023-01",
+            "end_month": "2024-12",
+            "status": "downloaded"
+        }
+    }
+}

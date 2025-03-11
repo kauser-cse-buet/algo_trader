@@ -1,0 +1,12 @@
+,14
+Unnamed: 0,14.0
+Trees,300.0
+Learning Rate,0.01
+Subsample,0.5
+% Features,0.5
+Weight of Default,5.0
+AUC Train,0.8606663829482032
+AUC Test 1,0.5411257648714901
+AUC Test 2,0.4904102537033729
+avg_test_auc,0.5157680092874315
+train_test_gap,0.3448983736607717

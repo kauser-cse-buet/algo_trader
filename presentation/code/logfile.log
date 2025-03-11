@@ -1,0 +1,1150 @@
+2025-02-20 01:21:52,243 INFO: Task started.
+2025-02-20 02:39:46,701 INFO: Task started.
+2025-02-20 02:39:46,780 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 02:39:47,827 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=5min&month=2022-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 232829
+2025-02-20 02:39:48,020 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 02:40:03,080 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 02:40:04,264 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=5min&month=2022-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 232179
+2025-02-20 02:40:04,464 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 02:40:19,676 INFO: Data saved to C:\Users\kause\OneDrive - The University of Texas at Dallas\algo_trader\presentation\data\historical_intraday_5min\AMZN_intraday_data_2022-11_to_2022-12.csv
+2025-02-20 02:40:19,679 INFO: Data downloaded for AMZN from 2022-11 to 2022-12.
+2025-02-20 02:40:19,681 INFO: data dimensions: (7859, 6)
+2025-02-20 02:40:19,682 INFO: AMZN: Data downloaded successfully. Status updated to 'downloaded'.
+2025-02-20 02:40:19,689 INFO: Configuration updated.
+2025-02-20 02:57:09,859 INFO: Task started.
+2025-02-20 02:57:09,863 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 02:57:12,443 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2023-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1197862
+2025-02-20 02:57:12,922 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 02:57:27,951 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 02:57:30,305 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2023-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1131430
+2025-02-20 02:57:30,793 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 02:57:45,831 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 02:57:48,541 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2023-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1350694
+2025-02-20 02:57:49,142 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 02:58:04,170 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 02:58:06,688 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2023-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1102576
+2025-02-20 02:58:07,147 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 02:58:22,225 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 02:58:24,868 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2023-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1262416
+2025-02-20 02:58:25,377 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 02:58:40,418 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 02:58:43,176 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2023-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1269470
+2025-02-20 02:58:43,708 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 02:58:58,737 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 02:59:01,459 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2023-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1195180
+2025-02-20 02:59:01,934 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 02:59:16,968 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 02:59:19,829 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2023-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1385829
+2025-02-20 02:59:20,370 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 02:59:35,400 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 02:59:37,964 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2023-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1204975
+2025-02-20 02:59:38,455 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 02:59:53,495 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 02:59:56,212 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2023-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1325412
+2025-02-20 02:59:56,757 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 03:00:11,802 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:00:14,651 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2023-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1254406
+2025-02-20 03:00:15,164 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 03:00:30,202 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:00:32,795 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2023-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1203578
+2025-02-20 03:00:33,358 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 03:00:48,390 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:00:49,086 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2024-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1265766
+2025-02-20 03:00:49,596 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 03:01:04,633 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:01:05,311 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2024-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1203868
+2025-02-20 03:01:05,814 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 03:01:20,841 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:01:21,402 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2024-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1204225
+2025-02-20 03:01:21,887 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 03:01:36,932 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:01:37,613 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2024-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1326709
+2025-02-20 03:01:38,193 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 03:01:53,233 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:01:53,757 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2024-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1320082
+2025-02-20 03:01:54,296 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 03:02:09,342 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:02:09,953 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2024-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1139430
+2025-02-20 03:02:10,421 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 03:02:25,460 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:02:26,118 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2024-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1316705
+2025-02-20 03:02:26,639 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 03:02:41,689 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:02:42,326 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2024-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1321168
+2025-02-20 03:02:42,891 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 03:02:57,922 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:02:58,463 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2024-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1201582
+2025-02-20 03:02:59,038 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 03:03:14,076 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:03:14,720 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2024-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1383133
+2025-02-20 03:03:15,342 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 03:03:30,390 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:03:30,973 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2024-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1195255
+2025-02-20 03:03:31,463 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-20 03:03:46,508 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:03:46,711 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=TSLA&interval=1min&month=2024-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:04:03,639 INFO: Data saved to C:\Users\kause\OneDrive - The University of Texas at Dallas\algo_trader\presentation\data\historical_intraday\TSLA_intraday_data_2023-01_to_2024-12_1min.csv
+2025-02-20 03:04:03,651 INFO: Data downloaded for TSLA from 2023-01 to 2024-12.
+2025-02-20 03:04:03,651 INFO: data dimensions: (458376, 7)
+2025-02-20 03:04:03,659 INFO: TSLA: Data downloaded successfully. Status updated to 'downloaded'.
+2025-02-20 03:04:03,660 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:04:03,830 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:04:18,835 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:04:19,076 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:04:34,083 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:04:34,335 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:04:49,344 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:04:49,543 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:05:04,549 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:05:04,790 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:05:19,797 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:05:19,896 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:05:34,907 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:05:35,077 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:05:50,081 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:05:50,263 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:06:05,277 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:06:05,542 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:06:20,557 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:06:20,750 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:06:35,764 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:06:35,972 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:06:50,986 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:06:51,186 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:07:06,196 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:07:06,383 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:07:21,395 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:07:21,580 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:07:36,592 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:07:36,781 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:07:51,784 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:07:51,959 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:08:06,963 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:08:07,179 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:08:22,196 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:08:22,521 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:08:37,528 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:08:37,632 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:08:52,644 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:08:52,737 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:09:07,753 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:09:07,962 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:09:22,974 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:09:23,228 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:09:38,243 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:09:38,511 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:09:53,525 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:09:53,726 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:10:08,754 INFO: Data saved to C:\Users\kause\OneDrive - The University of Texas at Dallas\algo_trader\presentation\data\historical_intraday\AAPL_intraday_data_2023-01_to_2024-12_1min.csv
+2025-02-20 03:10:08,758 INFO: Data downloaded for AAPL from 2023-01 to 2024-12.
+2025-02-20 03:10:08,759 INFO: data dimensions: (48, 1)
+2025-02-20 03:10:08,759 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-20 03:10:08,762 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:10:08,981 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2023-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:10:23,997 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:10:24,236 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2023-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:10:39,248 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:10:39,440 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2023-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:10:54,451 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:10:54,729 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2023-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:11:09,740 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:11:10,022 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2023-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:11:25,029 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:11:25,262 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2023-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:11:40,274 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:11:40,493 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2023-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:11:55,502 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:14:42,215 INFO: Task started.
+2025-02-20 03:14:42,229 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:14:42,445 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:14:57,456 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:14:57,632 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:15:12,640 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:15:14,369 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:15:29,385 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:15:29,625 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:15:44,640 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:15:44,834 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:15:59,849 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:16:00,048 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:16:15,058 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:16:15,251 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:16:30,263 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:16:30,461 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:16:45,469 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:16:46,704 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:17:01,716 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:17:02,544 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:17:17,559 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:17:17,749 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:17:32,761 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:17:32,865 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:17:47,875 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:17:48,172 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:18:03,186 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:18:03,407 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:18:18,422 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:18:18,672 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:18:33,680 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:18:33,946 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:18:48,958 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:18:49,146 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:19:04,159 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:19:04,362 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:19:19,375 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:19:19,564 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:19:34,574 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:19:34,794 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:19:49,806 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:19:50,066 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:20:05,081 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:20:05,395 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:20:20,409 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:20:20,597 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:20:35,612 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-20 03:20:35,836 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 None
+2025-02-20 03:20:50,857 INFO: Data saved to C:\Users\kause\OneDrive - The University of Texas at Dallas\algo_trader\presentation\data\historical_intraday\AAPL_intraday_data_2023-01_to_2024-12_1min.csv
+2025-02-20 03:20:50,858 INFO: Data downloaded for AAPL from 2023-01 to 2024-12.
+2025-02-20 03:20:50,859 INFO: data dimensions: (48, 1)
+2025-02-20 03:20:50,860 INFO: AAPL: Data downloaded successfully. Status updated to 'downloaded'.
+2025-02-20 03:20:50,861 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-20 03:20:50,861 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-20 03:20:50,862 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-20 03:20:50,863 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-20 03:20:50,864 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-20 03:20:50,864 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-20 03:20:50,865 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-20 03:20:50,866 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-20 03:20:50,868 INFO: Configuration updated.
+2025-02-21 23:35:58,599 INFO: Task started.
+2025-02-21 23:35:58,635 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:36:13,726 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:36:19,706 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 934745
+2025-02-21 23:36:20,851 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:37:06,550 INFO: Task started.
+2025-02-21 23:37:06,557 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:37:08,779 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1008201
+2025-02-21 23:37:09,206 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:37:24,232 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:37:24,683 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 934745
+2025-02-21 23:37:25,087 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:37:40,118 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:37:42,447 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1108319
+2025-02-21 23:37:42,899 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:37:57,927 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:37:59,886 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 865671
+2025-02-21 23:38:00,261 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:38:15,282 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:38:17,641 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1107488
+2025-02-21 23:38:18,111 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:38:33,143 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:38:35,914 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1247587
+2025-02-21 23:38:36,404 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:38:51,438 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:38:53,911 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1173356
+2025-02-21 23:38:54,467 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:39:09,500 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:39:12,366 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1369043
+2025-02-21 23:39:12,906 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:39:27,943 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:39:30,452 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1192211
+2025-02-21 23:39:30,939 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:39:45,981 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:39:48,857 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1300767
+2025-02-21 23:39:49,392 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:40:04,442 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:40:07,369 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1230023
+2025-02-21 23:40:08,210 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:40:23,254 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:40:25,818 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2023-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1180931
+2025-02-21 23:40:26,303 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:40:41,348 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:40:44,074 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1251375
+2025-02-21 23:40:44,598 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:40:59,636 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:41:02,146 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1191362
+2025-02-21 23:41:02,618 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:41:17,666 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:41:20,379 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1195127
+2025-02-21 23:41:20,880 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:41:35,961 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:41:38,736 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1307628
+2025-02-21 23:41:39,253 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:41:54,291 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:41:57,016 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1306217
+2025-02-21 23:41:57,778 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:42:12,823 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:42:15,320 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1134801
+2025-02-21 23:42:15,787 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:42:30,819 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:42:33,628 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1298827
+2025-02-21 23:42:34,283 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:42:49,321 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:42:52,115 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1304031
+2025-02-21 23:42:52,629 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:43:07,674 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:43:10,162 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1187698
+2025-02-21 23:43:10,643 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:43:25,689 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:43:28,815 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1358709
+2025-02-21 23:43:29,351 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:43:44,398 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:43:46,998 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1174381
+2025-02-21 23:43:47,501 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:44:02,537 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-21 23:44:05,311 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=1min&month=2024-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1233519
+2025-02-21 23:44:05,807 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-21 23:44:23,549 INFO: Data saved to C:\Users\kause\OneDrive - The University of Texas at Dallas\algo_trader\presentation\data\historical_intraday\AAPL_intraday_data_2023-01_to_2024-12_1min.csv
+2025-02-21 23:44:23,582 INFO: Data downloaded for AAPL from 2023-01 to 2024-12.
+2025-02-21 23:44:23,584 INFO: data dimensions: (461247, 6)
+2025-02-21 23:44:23,600 INFO: AAPL: Data downloaded successfully. Status updated to 'downloaded'.
+2025-02-21 23:44:23,602 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-21 23:44:23,602 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-21 23:44:23,604 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-21 23:44:23,605 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-21 23:44:23,605 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-21 23:44:23,607 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-21 23:44:23,608 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-21 23:44:23,608 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-21 23:44:23,611 INFO: Configuration updated.
+2025-02-22 14:19:12,295 INFO: Task started.
+2025-02-22 14:19:12,324 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:19:13,300 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2023-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 859091
+2025-02-22 14:19:13,587 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:19:28,627 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:19:29,245 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2023-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 907872
+2025-02-22 14:19:29,505 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:19:44,535 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:19:45,312 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2023-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1067453
+2025-02-22 14:19:45,574 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:20:00,596 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:20:02,101 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2023-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 846425
+2025-02-22 14:20:02,349 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:20:17,371 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:20:18,074 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2023-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1039061
+2025-02-22 14:20:18,326 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:20:33,351 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:20:33,975 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2023-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1191386
+2025-02-22 14:20:34,254 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:20:49,345 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:20:50,052 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2023-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1120035
+2025-02-22 14:20:50,322 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:21:05,361 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:21:06,286 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2023-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1308877
+2025-02-22 14:21:06,612 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:21:21,649 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:21:22,355 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2023-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1130116
+2025-02-22 14:21:22,644 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:21:37,675 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:21:38,689 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2023-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1247082
+2025-02-22 14:21:38,957 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:21:53,990 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:21:54,697 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2023-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1180076
+2025-02-22 14:21:54,964 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:22:10,001 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:22:10,725 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2023-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1129717
+2025-02-22 14:22:10,988 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:22:26,031 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:22:26,776 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2024-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1194807
+2025-02-22 14:22:27,053 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:22:42,096 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:22:42,871 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2024-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1142431
+2025-02-22 14:22:43,140 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:22:58,225 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:22:58,915 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2024-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1143803
+2025-02-22 14:22:59,175 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:23:14,216 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:23:14,861 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2024-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1253140
+2025-02-22 14:23:15,133 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:23:30,222 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:23:31,067 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2024-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1275947
+2025-02-22 14:23:31,343 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:23:46,383 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:23:46,989 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2024-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1155802
+2025-02-22 14:23:47,275 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:24:02,337 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:24:03,393 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2024-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1323569
+2025-02-22 14:24:03,715 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:24:18,827 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:24:19,716 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2024-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1333418
+2025-02-22 14:24:20,014 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:24:35,114 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:24:35,907 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2024-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1213607
+2025-02-22 14:24:36,179 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:24:51,239 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:24:51,827 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2024-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1393773
+2025-02-22 14:24:52,134 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:25:07,268 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:25:08,149 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2024-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1201042
+2025-02-22 14:25:08,492 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:25:23,609 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-22 14:25:24,418 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=1min&month=2024-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1259660
+2025-02-22 14:25:24,757 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-22 14:25:43,078 INFO: Data saved to C:\Users\kause\OneDrive - The University of Texas at Dallas\algo_trader\presentation\data\historical_intraday\NVDA_intraday_data_2023-01_to_2024-12_1min.csv
+2025-02-22 14:25:43,088 INFO: Data downloaded for NVDA from 2023-01 to 2024-12.
+2025-02-22 14:25:43,088 INFO: data dimensions: (461139, 6)
+2025-02-22 14:25:43,097 INFO: NVDA: Data downloaded successfully. Status updated to 'downloaded'.
+2025-02-22 14:25:43,097 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-22 14:25:43,097 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-22 14:25:43,098 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-22 14:25:43,098 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-22 14:25:43,099 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-22 14:25:43,100 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-22 14:25:43,100 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-22 14:25:43,102 INFO: Configuration updated.
+2025-02-23 14:04:38,177 INFO: Task started.
+2025-02-23 14:04:38,212 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:04:38,846 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2023-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 841161
+2025-02-23 14:04:39,114 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:04:54,223 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:04:54,846 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2023-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 801276
+2025-02-23 14:04:55,083 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:05:10,108 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:05:10,723 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2023-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 968778
+2025-02-23 14:05:10,987 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:05:26,033 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:05:26,831 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2023-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 769292
+2025-02-23 14:05:27,073 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:05:42,120 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:05:42,906 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2023-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1084833
+2025-02-23 14:05:43,170 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:05:58,218 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:05:58,950 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2023-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1239275
+2025-02-23 14:05:59,237 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:06:14,289 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:06:15,000 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2023-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1157536
+2025-02-23 14:06:15,276 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:06:30,324 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:06:31,156 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2023-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1333462
+2025-02-23 14:06:31,543 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:06:46,592 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:06:49,081 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2023-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1099453
+2025-02-23 14:06:49,367 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:07:04,444 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:07:05,399 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2023-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1226350
+2025-02-23 14:07:05,669 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:07:20,716 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:07:21,488 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2023-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1158526
+2025-02-23 14:07:21,770 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:07:36,815 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:07:37,579 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2023-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1155604
+2025-02-23 14:07:37,849 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:07:52,893 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:07:53,470 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2024-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1252984
+2025-02-23 14:07:53,785 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:08:08,827 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:08:09,543 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2024-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1190770
+2025-02-23 14:08:09,816 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:08:24,876 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:08:25,614 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2024-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1194692
+2025-02-23 14:08:25,894 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:08:40,956 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:08:41,752 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2024-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1299538
+2025-02-23 14:08:42,023 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:08:57,070 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:08:57,734 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2024-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1295004
+2025-02-23 14:08:58,036 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:09:13,083 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:09:13,724 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2024-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1122792
+2025-02-23 14:09:14,028 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:09:29,087 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:09:29,874 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2024-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1294354
+2025-02-23 14:09:30,166 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:09:45,206 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:09:45,918 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2024-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1301056
+2025-02-23 14:09:46,202 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:10:01,251 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:10:02,406 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2024-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1160073
+2025-02-23 14:10:02,682 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:10:17,759 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:10:18,669 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2024-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1351995
+2025-02-23 14:10:18,976 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:10:34,045 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:10:34,931 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2024-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1175696
+2025-02-23 14:10:35,240 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:10:50,300 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-23 14:10:51,149 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMD&interval=1min&month=2024-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1238416
+2025-02-23 14:10:51,423 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-23 14:11:09,027 INFO: Data saved to C:\Users\kause\OneDrive - The University of Texas at Dallas\algo_trader\presentation\data\historical_intraday\AMD_intraday_data_2023-01_to_2024-12_1min.csv
+2025-02-23 14:11:09,039 INFO: Data downloaded for AMD from 2023-01 to 2024-12.
+2025-02-23 14:11:09,040 INFO: data dimensions: (450066, 6)
+2025-02-23 14:11:09,049 INFO: AMD: Data downloaded successfully. Status updated to 'downloaded'.
+2025-02-23 14:11:09,049 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-23 14:11:09,050 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-23 14:11:09,050 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-23 14:11:09,050 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-23 14:11:09,050 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-23 14:11:09,052 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-23 14:11:09,054 INFO: Configuration updated.
+2025-02-24 10:57:11,684 INFO: Task started.
+2025-02-24 10:57:11,701 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 10:57:12,738 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2023-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 973975
+2025-02-24 10:57:13,135 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 10:57:28,183 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 10:57:28,610 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2023-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 919492
+2025-02-24 10:57:28,978 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 10:57:44,014 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 10:57:44,599 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2023-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1046487
+2025-02-24 10:57:45,005 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 10:58:00,040 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 10:58:00,482 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2023-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 915755
+2025-02-24 10:58:00,846 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 10:58:15,879 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 10:58:16,824 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2023-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1122243
+2025-02-24 10:58:17,248 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 10:58:32,284 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 10:58:32,945 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2023-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1230107
+2025-02-24 10:58:33,454 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 10:58:48,494 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 10:58:49,150 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2023-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1156720
+2025-02-24 10:58:49,595 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 10:59:04,630 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 10:59:06,796 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2023-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1331004
+2025-02-24 10:59:07,295 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 10:59:22,344 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 10:59:23,085 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2023-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1148955
+2025-02-24 10:59:24,791 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 10:59:39,835 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 10:59:40,417 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2023-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1278917
+2025-02-24 10:59:40,893 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 10:59:55,943 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 10:59:56,607 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2023-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1200978
+2025-02-24 10:59:57,070 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 11:00:12,104 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 11:00:13,263 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2023-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1152014
+2025-02-24 11:00:13,726 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 11:00:28,757 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 11:00:29,591 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2024-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1233900
+2025-02-24 11:00:30,064 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 11:00:45,102 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 11:00:45,685 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2024-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1179529
+2025-02-24 11:00:46,132 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 11:01:01,179 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 11:01:02,694 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2024-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1158133
+2025-02-24 11:01:03,130 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 11:01:18,161 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 11:01:18,939 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2024-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1285709
+2025-02-24 11:01:19,468 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 11:01:34,515 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 11:01:35,266 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2024-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1272728
+2025-02-24 11:01:35,846 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 11:01:50,881 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 11:01:51,627 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2024-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1109241
+2025-02-24 11:01:52,065 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 11:02:07,119 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 11:02:09,195 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2024-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1286895
+2025-02-24 11:02:09,690 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 11:02:24,735 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 11:02:25,586 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2024-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1295470
+2025-02-24 11:02:26,079 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 11:02:41,130 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 11:02:41,767 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2024-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1161041
+2025-02-24 11:02:42,206 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 11:02:57,256 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 11:02:58,020 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2024-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1338004
+2025-02-24 11:02:58,536 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 11:03:13,577 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 11:03:14,191 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2024-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1174399
+2025-02-24 11:03:14,642 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 11:03:29,684 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-24 11:03:30,245 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=AMZN&interval=1min&month=2024-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1230129
+2025-02-24 11:03:30,723 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-24 11:03:47,446 INFO: Data saved to C:\Users\kause\OneDrive - The University of Texas at Dallas\algo_trader\presentation\data\historical_intraday\AMZN_intraday_data_2023-01_to_2024-12_1min.csv
+2025-02-24 11:03:47,458 INFO: Data downloaded for AMZN from 2023-01 to 2024-12.
+2025-02-24 11:03:47,459 INFO: data dimensions: (456712, 6)
+2025-02-24 11:03:47,466 INFO: AMZN: Data downloaded successfully. Status updated to 'downloaded'.
+2025-02-24 11:03:47,467 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-24 11:03:47,467 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-24 11:03:47,467 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-24 11:03:47,467 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-24 11:03:47,467 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-24 11:03:47,469 INFO: Configuration updated.
+2025-02-25 10:57:12,191 INFO: Task started.
+2025-02-25 10:57:12,210 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 10:57:14,271 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2023-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 832523
+2025-02-25 10:57:14,648 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 10:57:29,692 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 10:57:31,832 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2023-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 829539
+2025-02-25 10:57:32,161 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 10:57:47,194 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 10:57:49,374 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2023-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 941531
+2025-02-25 10:57:49,770 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 10:58:04,802 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 10:58:07,744 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2023-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 780527
+2025-02-25 10:58:08,096 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 10:58:23,123 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 10:58:23,703 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2023-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 970283
+2025-02-25 10:58:24,113 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 10:58:39,149 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 10:58:40,031 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2023-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1208247
+2025-02-25 10:58:40,527 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 10:58:55,566 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 10:58:56,114 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2023-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1156605
+2025-02-25 10:58:56,598 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 10:59:11,629 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 10:59:12,327 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2023-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1306429
+2025-02-25 10:59:12,861 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 10:59:27,894 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 10:59:28,563 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2023-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1106962
+2025-02-25 10:59:29,018 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 10:59:44,054 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 10:59:44,918 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2023-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1253449
+2025-02-25 10:59:45,485 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 11:00:00,529 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 11:00:02,167 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2023-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1206122
+2025-02-25 11:00:02,655 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 11:00:17,691 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 11:00:19,959 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2023-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1151888
+2025-02-25 11:00:21,090 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 11:00:36,131 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 11:00:36,886 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2024-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1237794
+2025-02-25 11:00:37,471 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 11:00:52,505 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 11:00:53,243 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2024-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1181489
+2025-02-25 11:00:53,709 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 11:01:08,736 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 11:01:09,597 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2024-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1173480
+2025-02-25 11:01:10,069 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 11:01:25,102 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 11:01:25,792 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2024-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1284774
+2025-02-25 11:01:26,358 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 11:01:41,397 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 11:01:42,241 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2024-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1280576
+2025-02-25 11:01:42,765 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 11:01:57,809 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 11:01:58,454 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2024-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1110572
+2025-02-25 11:01:58,902 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 11:02:13,938 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 11:02:14,634 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2024-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1284582
+2025-02-25 11:02:15,216 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 11:02:30,264 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 11:02:30,965 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2024-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1291456
+2025-02-25 11:02:31,577 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 11:02:46,616 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 11:02:47,272 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2024-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1164906
+2025-02-25 11:02:47,747 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 11:03:02,785 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 11:03:05,184 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2024-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1348084
+2025-02-25 11:03:05,713 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 11:03:20,757 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 11:03:21,412 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2024-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1168461
+2025-02-25 11:03:21,989 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 11:03:37,041 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-25 11:03:37,608 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&month=2024-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1223242
+2025-02-25 11:03:38,097 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-25 11:03:55,064 INFO: Data saved to C:\Users\kause\OneDrive - The University of Texas at Dallas\algo_trader\presentation\data\historical_intraday\MSFT_intraday_data_2023-01_to_2024-12_1min.csv
+2025-02-25 11:03:55,075 INFO: Data downloaded for MSFT from 2023-01 to 2024-12.
+2025-02-25 11:03:55,075 INFO: data dimensions: (444974, 6)
+2025-02-25 11:03:55,083 INFO: MSFT: Data downloaded successfully. Status updated to 'downloaded'.
+2025-02-25 11:03:55,083 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-25 11:03:55,083 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-25 11:03:55,084 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-25 11:03:55,084 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-25 11:03:55,086 INFO: Configuration updated.
+2025-02-26 10:57:11,970 INFO: Task started.
+2025-02-26 10:57:11,992 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 10:57:27,008 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 10:57:42,015 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 10:57:57,023 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 10:58:12,027 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 10:58:27,034 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 10:58:42,046 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 10:58:57,052 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 10:59:12,060 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 10:59:27,065 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 10:59:42,072 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 10:59:57,077 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 11:00:12,089 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 11:00:27,099 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 11:00:42,108 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 11:00:57,116 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 11:01:12,122 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 11:01:27,126 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 11:01:42,130 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 11:01:57,134 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 11:02:12,139 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 11:02:27,141 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 11:02:42,146 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 11:02:57,149 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-26 11:03:12,152 INFO: Data downloaded for NFLX from 2023-01 to 2024-12.
+2025-02-27 10:57:12,324 INFO: Task started.
+2025-02-27 10:57:12,346 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 10:57:14,045 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2023-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 658575
+2025-02-27 10:57:14,240 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 10:57:29,274 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 10:57:30,690 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2023-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 564523
+2025-02-27 10:57:30,884 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 10:57:45,902 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 10:57:47,651 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2023-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 688912
+2025-02-27 10:57:47,841 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 10:58:02,860 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 10:58:05,775 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2023-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 581036
+2025-02-27 10:58:05,971 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 10:58:21,001 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 10:58:21,568 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2023-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 793154
+2025-02-27 10:58:21,762 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 10:58:36,797 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 10:58:37,464 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2023-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1113016
+2025-02-27 10:58:37,686 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 10:58:52,724 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 10:58:53,203 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2023-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1061254
+2025-02-27 10:58:53,407 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 10:59:08,446 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 10:59:09,156 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2023-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1148004
+2025-02-27 10:59:09,345 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 10:59:24,384 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 10:59:24,932 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2023-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 982008
+2025-02-27 10:59:25,141 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 10:59:40,180 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 10:59:40,795 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2023-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1124688
+2025-02-27 10:59:41,013 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 10:59:56,048 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 10:59:56,606 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2023-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 994762
+2025-02-27 10:59:56,822 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 11:00:11,863 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 11:00:13,123 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2023-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 964196
+2025-02-27 11:00:13,324 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 11:00:28,358 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 11:00:29,609 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2024-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1124945
+2025-02-27 11:00:30,053 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 11:00:45,085 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 11:00:45,697 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2024-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1024542
+2025-02-27 11:00:45,899 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 11:01:00,934 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 11:01:04,390 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2024-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1012926
+2025-02-27 11:01:04,605 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 11:01:19,647 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 11:01:20,342 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2024-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1133742
+2025-02-27 11:01:20,563 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 11:01:35,598 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 11:01:36,284 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2024-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1078616
+2025-02-27 11:01:36,495 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 11:01:51,526 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 11:01:52,126 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2024-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 933339
+2025-02-27 11:01:52,329 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 11:02:07,369 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 11:02:09,215 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2024-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1117438
+2025-02-27 11:02:09,415 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 11:02:24,452 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 11:02:25,033 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2024-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1082692
+2025-02-27 11:02:25,255 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 11:02:40,293 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 11:02:40,832 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2024-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 951311
+2025-02-27 11:02:41,035 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 11:02:56,065 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 11:02:56,658 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2024-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1145545
+2025-02-27 11:02:56,880 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 11:03:11,924 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 11:03:12,535 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2024-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1037198
+2025-02-27 11:03:12,754 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 11:03:27,792 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-27 11:03:28,437 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NFLX&interval=1min&month=2024-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1101548
+2025-02-27 11:03:28,646 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-27 11:03:45,182 INFO: Data saved to C:\Users\kause\OneDrive - The University of Texas at Dallas\algo_trader\presentation\data\historical_intraday\NFLX_intraday_data_2023-01_to_2024-12_1min.csv
+2025-02-27 11:03:45,192 INFO: Data downloaded for NFLX from 2023-01 to 2024-12.
+2025-02-27 11:03:45,192 INFO: data dimensions: (382700, 6)
+2025-02-27 11:03:45,199 INFO: NFLX: Data downloaded successfully. Status updated to 'downloaded'.
+2025-02-27 11:03:45,199 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-27 11:03:45,199 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-27 11:03:45,200 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-27 11:03:45,202 INFO: Configuration updated.
+2025-02-28 11:53:20,291 INFO: Task started.
+2025-02-28 11:53:20,313 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:53:20,940 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2023-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 616187
+2025-02-28 11:53:21,202 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:53:36,290 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:53:37,185 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2023-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 578523
+2025-02-28 11:53:37,513 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:53:52,554 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:53:53,022 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2023-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 662604
+2025-02-28 11:53:53,270 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:54:08,304 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:54:08,922 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2023-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 570918
+2025-02-28 11:54:09,134 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:54:24,151 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:54:24,918 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2023-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 731848
+2025-02-28 11:54:25,134 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:54:40,169 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:54:40,690 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2023-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 810840
+2025-02-28 11:54:40,940 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:54:55,969 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:54:56,677 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2023-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 802374
+2025-02-28 11:54:56,952 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:55:12,010 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:55:13,285 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2023-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 908633
+2025-02-28 11:55:13,565 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:55:28,632 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:55:29,407 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2023-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 805678
+2025-02-28 11:55:29,662 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:55:44,701 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:55:45,290 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2023-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1027168
+2025-02-28 11:55:45,551 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:56:00,613 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:56:01,118 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2023-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 868652
+2025-02-28 11:56:01,323 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:56:16,379 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:56:17,149 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2023-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 886655
+2025-02-28 11:56:17,402 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:56:32,453 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:56:33,428 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2024-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 943437
+2025-02-28 11:56:33,676 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:56:48,719 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:56:49,312 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2024-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 851465
+2025-02-28 11:56:49,611 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:57:04,663 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:57:07,177 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2024-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 829222
+2025-02-28 11:57:07,465 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:57:22,546 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:57:23,238 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2024-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 989691
+2025-02-28 11:57:23,501 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:57:38,554 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:57:39,263 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2024-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 900345
+2025-02-28 11:57:39,515 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:57:54,549 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:57:55,174 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2024-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 799053
+2025-02-28 11:57:55,392 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:58:10,432 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:58:11,202 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2024-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1012670
+2025-02-28 11:58:11,447 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:58:26,479 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:58:27,136 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2024-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 943784
+2025-02-28 11:58:27,389 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:58:42,424 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:58:43,004 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2024-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 852466
+2025-02-28 11:58:43,261 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:58:58,298 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:58:58,936 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2024-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1025528
+2025-02-28 11:58:59,199 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:59:14,260 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:59:15,881 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2024-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 912761
+2025-02-28 11:59:16,125 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:59:31,155 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-02-28 11:59:31,838 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=XOM&interval=1min&month=2024-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 969081
+2025-02-28 11:59:32,096 DEBUG: Encoding detection: ascii is most likely the one.
+2025-02-28 11:59:49,793 INFO: Data saved to C:\Users\kause\OneDrive - The University of Texas at Dallas\algo_trader\presentation\data\historical_intraday\XOM_intraday_data_2023-01_to_2024-12_1min.csv
+2025-02-28 11:59:49,803 INFO: Data downloaded for XOM from 2023-01 to 2024-12.
+2025-02-28 11:59:49,803 INFO: data dimensions: (333653, 6)
+2025-02-28 11:59:49,811 INFO: XOM: Data downloaded successfully. Status updated to 'downloaded'.
+2025-02-28 11:59:49,811 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-28 11:59:49,812 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-02-28 11:59:49,814 INFO: Configuration updated.
+2025-03-01 10:57:12,073 INFO: Task started.
+2025-03-01 10:57:12,091 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 10:57:14,056 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2023-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 797475
+2025-03-01 10:57:14,300 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 10:57:29,347 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 10:57:31,240 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2023-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 830365
+2025-03-01 10:57:31,468 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 10:57:46,506 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 10:57:48,818 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2023-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 969303
+2025-03-01 10:57:49,082 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 10:58:04,156 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 10:58:06,076 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2023-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 750666
+2025-03-01 10:58:06,300 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 10:58:21,340 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 10:58:23,621 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2023-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 960842
+2025-03-01 10:58:24,102 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 10:58:39,144 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 10:58:41,833 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2023-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1184457
+2025-03-01 10:58:42,097 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 10:58:57,142 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 10:58:59,791 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2023-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1155319
+2025-03-01 10:59:00,063 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 10:59:15,117 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 10:59:17,989 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2023-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1277232
+2025-03-01 10:59:18,256 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 10:59:33,319 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 10:59:35,763 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2023-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1087991
+2025-03-01 10:59:36,030 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 10:59:51,075 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 10:59:53,850 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2023-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1232997
+2025-03-01 10:59:54,117 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 11:00:09,166 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 11:00:12,864 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2023-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1132776
+2025-03-01 11:00:13,132 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 11:00:28,201 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 11:00:30,721 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2023-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1087089
+2025-03-01 11:00:30,976 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 11:00:46,017 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 11:00:48,924 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2024-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1192621
+2025-03-01 11:00:49,188 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 11:01:04,218 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 11:01:07,477 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2024-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1161344
+2025-03-01 11:01:07,963 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 11:01:22,989 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 11:01:25,699 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2024-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1136902
+2025-03-01 11:01:25,954 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 11:01:41,021 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 11:01:44,095 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2024-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1267101
+2025-03-01 11:01:44,367 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 11:01:59,432 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 11:02:02,836 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2024-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1252779
+2025-03-01 11:02:03,099 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 11:02:18,149 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 11:02:20,718 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2024-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1079252
+2025-03-01 11:02:20,989 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 11:02:36,042 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 11:02:39,088 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2024-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1262423
+2025-03-01 11:02:39,345 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 11:02:54,423 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 11:02:57,275 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2024-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1251085
+2025-03-01 11:02:57,547 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 11:03:12,587 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 11:03:15,261 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2024-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1125274
+2025-03-01 11:03:15,516 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 11:03:30,561 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 11:03:33,501 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2024-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1322617
+2025-03-01 11:03:33,765 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 11:03:48,822 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 11:03:51,413 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2024-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1145243
+2025-03-01 11:03:51,713 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 11:04:06,743 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-01 11:04:09,528 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=META&interval=1min&month=2024-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1201701
+2025-03-01 11:04:09,781 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-01 11:04:27,898 INFO: Data saved to C:\Users\kause\OneDrive - The University of Texas at Dallas\algo_trader\presentation\data\historical_intraday\META_intraday_data_2023-01_to_2024-12_1min.csv
+2025-03-01 11:04:27,911 INFO: Data downloaded for META from 2023-01 to 2024-12.
+2025-03-01 11:04:27,911 INFO: data dimensions: (435210, 6)
+2025-03-01 11:04:27,924 INFO: META: Data downloaded successfully. Status updated to 'downloaded'.
+2025-03-01 11:04:27,924 INFO: Daily download limit reached. Skipping the rest of the tickers.
+2025-03-01 11:04:27,926 INFO: Configuration updated.
+2025-03-02 13:12:25,648 INFO: Task started.
+2025-03-02 13:12:25,791 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:12:26,269 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2023-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 531004
+2025-03-02 13:12:26,541 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:12:41,661 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:12:42,075 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2023-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 494167
+2025-03-02 13:12:42,293 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:12:57,340 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:12:57,835 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2023-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 635410
+2025-03-02 13:12:58,059 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:13:13,093 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:13:13,518 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2023-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 483409
+2025-03-02 13:13:13,733 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:13:28,752 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:13:29,212 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2023-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 708407
+2025-03-02 13:13:29,458 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:13:44,499 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:13:45,097 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2023-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 950035
+2025-03-02 13:13:45,347 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:14:00,373 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:14:01,397 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2023-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 822479
+2025-03-02 13:14:01,657 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:14:16,715 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:14:17,379 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2023-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 887415
+2025-03-02 13:14:17,624 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:14:32,662 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:14:33,200 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2023-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 787792
+2025-03-02 13:14:33,456 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:14:48,489 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:14:48,923 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2023-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 797955
+2025-03-02 13:14:49,169 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:15:04,201 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:15:05,321 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2023-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 744949
+2025-03-02 13:15:05,569 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:15:20,630 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:15:21,171 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2023-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 873835
+2025-03-02 13:15:21,427 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:15:36,477 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:15:37,031 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2024-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 948137
+2025-03-02 13:15:37,279 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:15:52,315 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:15:52,811 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2024-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 810843
+2025-03-02 13:15:53,032 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:16:08,066 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:16:08,618 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2024-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 868429
+2025-03-02 13:16:08,951 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:16:23,972 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:16:24,565 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2024-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 944732
+2025-03-02 13:16:24,811 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:16:39,841 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:16:40,425 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2024-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 871786
+2025-03-02 13:16:40,673 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:16:55,702 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:16:56,296 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2024-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 789137
+2025-03-02 13:16:56,523 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:17:11,551 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:17:12,196 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2024-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1155993
+2025-03-02 13:17:12,470 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:17:27,523 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:17:28,156 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2024-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1063130
+2025-03-02 13:17:28,433 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:17:43,488 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:17:44,114 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2024-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 911597
+2025-03-02 13:17:44,353 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:17:59,391 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:17:59,934 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2024-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1073744
+2025-03-02 13:18:00,196 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:18:15,238 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:18:16,039 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2024-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 980965
+2025-03-02 13:18:16,299 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:18:31,411 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-02 13:18:31,956 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=NKE&interval=1min&month=2024-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1018961
+2025-03-02 13:18:32,213 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-02 13:18:49,435 INFO: Data saved to C:\Users\kause\OneDrive - The University of Texas at Dallas\algo_trader\presentation\data\historical_intraday\NKE_intraday_data_2023-01_to_2024-12_1min.csv
+2025-03-02 13:18:49,442 INFO: Data downloaded for NKE from 2023-01 to 2024-12.
+2025-03-02 13:18:49,442 INFO: data dimensions: (340335, 6)
+2025-03-02 13:18:49,450 INFO: NKE: Data downloaded successfully. Status updated to 'downloaded'.
+2025-03-02 13:18:49,452 INFO: Configuration updated.
+2025-03-03 10:57:12,213 INFO: Task started.
+2025-03-03 10:57:12,229 INFO: Configuration updated.
+2025-03-04 18:57:46,241 INFO: Task started.
+2025-03-04 18:57:46,276 INFO: Configuration updated.
+2025-03-05 16:18:02,619 INFO: Task started.
+2025-03-05 16:18:02,660 INFO: Configuration updated.
+2025-03-06 10:57:15,534 INFO: Task started.
+2025-03-06 10:57:15,578 INFO: Configuration updated.
+2025-03-07 10:57:12,142 INFO: Task started.
+2025-03-07 10:57:12,158 INFO: Configuration updated.
+2025-03-08 00:02:08,327 INFO: Task started.
+2025-03-08 00:02:08,334 INFO: Configuration updated.
+2025-03-08 00:02:40,741 INFO: Task started.
+2025-03-08 00:02:40,763 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:02:40,884 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2023-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:02:55,912 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:02:56,083 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2023-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:03:11,096 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:03:11,267 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2023-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:03:26,277 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:03:26,454 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2023-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:03:41,464 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:03:41,682 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2023-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:03:56,691 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:03:56,859 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2023-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:04:11,870 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:04:12,045 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2023-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:04:27,056 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:04:27,236 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2023-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:04:42,241 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:04:42,445 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2023-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:04:57,454 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:04:57,631 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2023-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:05:12,637 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:05:12,727 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2023-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:05:27,736 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:05:27,920 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2023-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:05:42,935 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:05:43,123 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2024-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:05:58,128 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:05:58,299 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2024-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:06:13,304 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:06:13,529 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2024-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:06:28,536 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:06:28,643 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2024-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:06:43,650 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:06:43,820 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2024-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:06:58,826 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:06:59,014 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2024-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:07:14,021 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:07:14,233 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2024-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:07:29,238 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:07:29,466 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2024-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:07:44,471 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:07:44,664 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2024-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:07:59,669 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:08:00,035 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2024-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:08:15,044 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:08:15,247 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2024-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:08:30,259 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-08 00:08:30,439 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2024-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-08 00:08:45,474 INFO: Data saved to C:\Users\kause\OneDrive - The University of Texas at Dallas\algo_trader\presentation\data\historical_intraday\^GSPC_intraday_data_2023-01_to_2024-12_1min.csv
+2025-03-08 00:08:45,476 INFO: Data downloaded for ^GSPC from 2023-01 to 2024-12.
+2025-03-08 00:08:45,477 INFO: data dimensions: (0, 1)
+2025-03-08 00:08:45,479 INFO: ^GSPC: Data downloaded successfully. Status updated to 'downloaded'.
+2025-03-08 00:08:45,488 INFO: Configuration updated.
+2025-03-08 12:24:28,246 INFO: Task started.
+2025-03-08 12:24:28,273 INFO: Configuration updated.
+2025-03-09 06:54:35,380 INFO: Task started.
+2025-03-09 06:54:35,386 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 06:54:35,590 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=%5EGSPC&interval=1min&month=2023-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 2
+2025-03-09 06:54:35,608 INFO: Data downloaded for ^GSPC from 2023-01 to 2024-12.
+2025-03-09 06:56:39,379 INFO: Task started.
+2025-03-09 06:56:39,385 INFO: Configuration updated.
+2025-03-09 06:57:07,639 INFO: Task started.
+2025-03-09 06:57:07,675 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 06:57:09,998 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2023-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1067967
+2025-03-09 06:57:10,247 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 06:57:10,286 INFO: Data downloaded for SPY from 2023-01 to 2024-12.
+2025-03-09 06:57:52,326 INFO: Task started.
+2025-03-09 06:57:52,331 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 06:57:52,807 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2023-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1067967
+2025-03-09 06:57:53,063 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 06:58:08,105 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 06:58:10,384 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2023-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1013553
+2025-03-09 06:58:10,639 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 06:58:25,679 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 06:58:28,419 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2023-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1250079
+2025-03-09 06:58:28,683 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 06:58:43,717 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 06:58:45,857 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2023-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 977059
+2025-03-09 06:58:46,105 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 06:59:01,140 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 06:59:04,796 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2023-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1175782
+2025-03-09 06:59:05,032 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 06:59:20,077 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 06:59:22,770 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2023-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1237810
+2025-03-09 06:59:23,026 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 06:59:38,059 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 06:59:40,690 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2023-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1164145
+2025-03-09 06:59:40,958 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 06:59:56,002 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 06:59:58,877 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2023-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1354953
+2025-03-09 06:59:59,143 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 07:00:14,173 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 07:00:16,884 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2023-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1175386
+2025-03-09 07:00:17,202 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 07:00:32,236 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 07:00:35,164 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2023-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1313513
+2025-03-09 07:00:35,426 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 07:00:50,462 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 07:00:53,240 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2023-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1229386
+2025-03-09 07:00:53,623 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 07:01:08,729 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 07:01:11,398 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2023-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1170048
+2025-03-09 07:01:11,663 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 07:01:26,695 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 07:01:29,449 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2024-01&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1235467
+2025-03-09 07:01:29,697 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 07:01:44,729 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 07:01:47,275 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2024-02&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1177866
+2025-03-09 07:01:47,538 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 07:02:02,565 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 07:02:06,057 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2024-03&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1177248
+2025-03-09 07:02:06,317 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 07:02:21,349 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 07:02:24,133 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2024-04&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1296248
+2025-03-09 07:02:24,404 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 07:02:39,459 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 07:02:42,350 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2024-05&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1279586
+2025-03-09 07:02:42,616 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 07:02:57,655 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 07:03:00,187 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2024-06&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1116280
+2025-03-09 07:03:00,452 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 07:03:15,496 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 07:03:18,287 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2024-07&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1289475
+2025-03-09 07:03:18,546 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 07:03:33,587 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 07:03:36,498 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2024-08&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1306671
+2025-03-09 07:03:36,774 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 07:03:51,861 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 07:03:54,497 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2024-09&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1192304
+2025-03-09 07:03:54,764 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 07:04:09,804 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 07:04:12,849 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2024-10&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1367482
+2025-03-09 07:04:13,263 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 07:04:28,300 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 07:04:30,950 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2024-11&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1182436
+2025-03-09 07:04:31,224 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 07:04:46,262 DEBUG: Starting new HTTPS connection (1): www.alphavantage.co:443
+2025-03-09 07:04:48,901 DEBUG: https://www.alphavantage.co:443 "GET /query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=1min&month=2024-12&outputsize=full&apikey=YLULSP83IFW7B6E3&datatype=csv HTTP/1.1" 200 1238139
+2025-03-09 07:04:49,177 DEBUG: Encoding detection: ascii is most likely the one.
+2025-03-09 07:05:08,495 INFO: Data saved to C:\Users\kause\OneDrive - The University of Texas at Dallas\algo_trader\presentation\data\historical_intraday\SPY_intraday_data_2023-01_to_2024-12_1min.csv
+2025-03-09 07:05:08,510 INFO: Data downloaded for SPY from 2023-01 to 2024-12.
+2025-03-09 07:05:08,510 INFO: data dimensions: (465429, 6)
+2025-03-09 07:05:08,526 INFO: SPY: Data downloaded successfully. Status updated to 'downloaded'.
+2025-03-09 07:05:08,527 INFO: Configuration updated.
+2025-03-09 10:57:10,007 INFO: Task started.
+2025-03-09 10:57:10,010 INFO: Configuration updated.
+2025-03-10 18:40:56,978 INFO: Task started.
+2025-03-10 18:40:57,056 INFO: Configuration updated.
+2025-03-11 10:57:13,094 INFO: Task started.
+2025-03-11 10:57:13,115 INFO: Configuration updated.

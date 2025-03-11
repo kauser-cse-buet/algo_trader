@@ -1,0 +1,241 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{lipsum}    % for placeholder text (remove if not needed)
+\usepackage{graphicx}  % if you need to include images
+\usepackage{amsmath}   % if you need math
+\usepackage{amssymb}   % if you need more math symbols
+\usepackage{booktabs}  % for nicer tables
+\usepackage{csvsimple} % For displaying CSV files
+\usepackage{booktabs} % For better table formatting
+
+
+\title{Machine Learning Based Algorithmic Trading}
+\author{Md Kauser Ahmmed}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+This report outlines the steps and requirements for the class project, titled \textit{Machine Learning Based Algorithmic Trading}. The main tasks include data collection, observation exclusions, feature engineering, model building, and back-testing a trading strategy. Below is a structured summary of each stage.
+
+\section{Data Collection}
+We collect historical data of eleven assets (e.g., stocks, ETFs). The following table shows the assets and associated data parameters:
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{|l|l|l|l|}
+        \hline
+        \textbf{Asset Name} & \textbf{Time Period} & \textbf{Frequency} & \textbf{Source of Data} \\ \hline
+        TSLA                & 2 years              & 1 min              & Alpha Vantage           \\ \hline
+        AAPL                & Jan 2023 -- Dec 2024 &                   &                         \\ \hline
+        NVDA                &                      &                   &                         \\ \hline
+        AMD                 &                      &                   &                         \\ \hline
+        AMZN                &                      &                   &                         \\ \hline
+        MSFT                &                      &                   &                         \\ \hline
+        NFLX                &                      &                   &                         \\ \hline
+        XOM                 &                      &                   &                         \\ \hline
+        META                &                      &                   &                         \\ \hline
+        NKE                 &                      &                   &                         \\ \hline
+        S\&P 500            &                      &                   &                         \\ \hline
+    \end{tabular}
+    \caption{Asset Data Parameters}
+    \label{tab:asset_data}
+\end{table}
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|l|l|p{5cm}|} % Adjusted width for better readability
+        \hline
+        \textbf{Cluster (Sector)} & \textbf{Assets} & \textbf{Rationale} \\ \hline
+        Technology & AAPL, AMD, MSFT, NVDA & Companies in semiconductors, consumer electronics, and software. \\ \hline
+        Communication Services & META, NFLX & Focus on digital media, social networking, and streaming services. \\ \hline
+        Consumer Discretionary & AMZN, TSLA, NKE & Industries tied to consumer spending: retail, automotive, and apparel. \\ \hline
+        Energy & XOM & Major oil \& gas company with distinct sector dynamics. \\ \hline
+        Diversified ETF & SPY & Tracks the S\&P 500, representing the overall market. \\ \hline
+    \end{tabular}
+    \caption{Clusters of Assets Based on Sectors}
+    \label{tab:clusters}
+\end{table}
+
+        
+
+\begin{itemize} 
+    \item \textbf{Data source:} Alpha Vantage API is used to retrieve the necessary price (open, high, low, close) and volume data.
+    \item \textbf{Time horizon:} 1 minute interval data of 2 years (January 2023 - December 2024).
+\end{itemize}
+
+\section{Observation Exclusions}
+
+\begin{table}[h!]
+    \centering
+    \caption{Summary of Observation Exclusion Techniques}
+    \label{tab:observation_exclusion_technique}
+    \begin{tabular}{|l|p{8cm}|}
+        \hline
+        \textbf{Step} & \textbf{Description} \\ \hline
+        Time-Based Exclusion & Rows with timestamps outside the range \texttt{[10, 15]} (10 AM to 3 PM) are excluded. \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{exclusion_hour_of_day_1.png}
+    \caption{Exclusion Criteria Based on Hour of Day. Data outside the desired trading hours are excluded. ($<10$ AM or $>3$ PM)}
+    \label{fig:exclusion_hour}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{exclusion_hour_of_day_2.png}
+    \caption{After the observation is excluded Based on Hour of Day.}
+    \label{fig:after_exclusion_hour}
+\end{figure}
+
+\section{Data Processing}
+\begin{itemize}
+    \item \textbf{Cleaning features:} Handle missing values (impute or remove) and ensure that any extreme outliers are either capped or removed based on your exclusion rule.
+    \item \textbf{Resampling or alignment:} If data come at different frequencies or have different time zones, ensure proper alignment before feature generation.
+\end{itemize}
+
+\section{Feature Generation}
+The feature generation process involves creating a comprehensive set of features, including both binary and continuous variables, to capture key aspects of the data such as trends, volatility, and momentum. These features are generated using a combination of rolling window calculations, technical indicators, and custom logic. The generated features are stored in a DataFrame, ensuring time alignment with the target variable.
+
+
+\subsection*{Feature Types}
+The features are categorized into two types:
+\begin{itemize}
+    \item \textbf{Binary Features}: These are indicator variables (e.g., flags for crossovers, thresholds) that take on values of 0 or 1.
+    \item \textbf{Continuous Features}: These are numerical variables (e.g., moving averages, volatility measures, RSI) that capture quantitative aspects of the data.
+\end{itemize}
+
+\subsection*{Feature Logic}
+Each feature is computed using a specific logic, which includes formulas and parameters such as window sizes. Below is a summary of the feature logic:
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Feature Category} & \textbf{Period} & \textbf{Feature Type} \\ \hline
+    Binary\_SMA\_Crossover & Short$|$Long: 120$|$240, 240$|$480, 
+                            ...% 480$|$960, 960$|$1920, 1920$|$3840 
+                            & binary \\ \hline
+    Price\_Above\_VWAP & 120, 240, 480, 960, 1920 & binary \\ \hline
+    MACD\_Bullish & fast$|$slow$|$signal: 120$|$240$|$90, 240$|$480$|$120
+                ...% , 480$|$960$|$240, 960$|$1920$|$480, 1920$|$3840$|$960 
+                & binary \\ \hline
+    RSI & 120, 240, 480, 960, 1920 & continuous \\ \hline
+    RSI\_Threshold & lower$|$upper: 15$|$85, 20$|$80, 25$|$75, 30$|$70, 35$|$65 & binary \\ \hline
+    BB\_Breakout & 120, 240, 480, 960, 1920 & binary \\ \hline
+    SMA\_cont & 120, 240, 480, 960, 1920 & continuous \\ \hline
+    ATR & 120, 240, 480, 960, 1920 & continuous \\ \hline
+    Momentum & 120, 240, 480, 960, 1920 & continuous \\ \hline
+    Average\_Return & 120, 240, 480, 960, 1920 & continuous \\ \hline
+    Rate\_Close\_Greater\_Open & 120, 240, 480, 960, 1920 & continuous \\ \hline
+    Downside\_Deviation & 120, 240, 480, 960, 1920 & continuous \\ \hline
+    Sortino\_Ratio & 120, 240, 480, 960, 1920 & continuous \\ \hline
+    Max\_Close & 120, 240, 480, 960, 1920 & continuous \\ \hline
+    Min\_Close & 120, 240, 480, 960, 1920 & continuous \\ \hline
+    Open &  & continuous \\ \hline
+    Close &  & continuous \\ \hline
+    High &  & continuous \\ \hline
+    Low &  & continuous \\ \hline
+    Volume &  & continuous \\ \hline
+    Total Number of Features & 103 &  \\ \hline
+    \end{tabular}
+    \caption{Feature Categories with Periods and Feature Types}
+    \label{tab:features}
+\end{table}
+
+\begin{itemize}
+    \item \textbf{At least 10 features:} Create 10 independent variables, including:
+    \begin{itemize}
+        \item \textbf{5 binary} (e.g., flags for crossovers, thresholds).
+        \item \textbf{5 continuous} (e.g., moving averages, volatility measures, RSI, etc.).
+    \end{itemize}
+    \item \textbf{Feature logic:} Clearly define how each feature is computed (e.g., window size, formula).
+    \item \textbf{Storage:} Store features in a DataFrame, ensuring time alignment with the target variable.
+\end{itemize}
+
+\section{Train--Test Split}
+\begin{itemize}
+    \item \textbf{At least 2 test samples:} Partition your historical data into multiple segments (e.g., a train set and two test sets). 
+    \item \textbf{Walk-forward approach (optional):} Consider a time-series cross-validation method for more robust evaluation.
+\end{itemize}
+
+\section{Data Processing}
+\begin{itemize}
+    \item \textbf{At least 2 test samples:} Partition your historical data into multiple segments (e.g., a train set and two test sets). 
+    \item \textbf{Walk-forward approach (optional):} Consider a time-series cross-validation method for more robust evaluation.
+\end{itemize}
+
+\section{Grid Search}
+% \csvautotabular[separator=comma]{AAPL/grid_search_results.csv}
+\begin{table}[h!]
+    \centering
+    \caption{Model Performance Metrics}
+    \label{tab:model_metrics}
+    \csvreader[
+        head to column names, % Use the first row as column names
+        tabular=|c|c|c|c|c|c|c|c|c|, % Define column alignment (center)
+        table head=\hline \textbf{} & \textbf{Trees} & \textbf{Learning Rate} & \textbf{Subsample} & \textbf{\% Features} & \textbf{Weight of Default} & \textbf{AUC Train} & \textbf{AUC Test 1} & \textbf{AUC Test 2} \\ \hline, % Custom header
+        table foot=\hline % Add a line at the end of the table
+    ]{AAPL/grid_search_results.csv}{}{%
+        \csvlinetotablerow % Insert each row of the CSV file 
+        \\
+    }
+\end{table}
+
+
+\section{Feature Selection \& Model Building}
+\begin{itemize}
+    \item \textbf{Model pipeline:} Use a machine learning pipeline that includes:
+    \begin{itemize}
+        \item Data scaling or normalization (if needed).
+        \item Feature selection (optional or integrated into the model).
+        \item An estimator (e.g., XGBoost, Random Forest, or a simpler model).
+    \end{itemize}
+    \item \textbf{Cross-validation:} Evaluate model performance using cross-validation (e.g., $k$-fold or walk-forward for time series).
+    \item \textbf{Hyperparameter tuning:} Employ a grid search (or similar) to find the best model parameters.
+    \item \textbf{Threshold/Strategy logic:} If using a threshold for classification or a target variable for regression, define how signals are derived (e.g., predicted probability $>0.6$ triggers a trade).
+\end{itemize}
+
+\section{Strategy Definition}
+\begin{itemize}
+    \item \textbf{Trade setup:} Define holding period, take-profit, and stop-loss logic.
+    \item \textbf{Position sizing (optional):} Consider how much capital is allocated per trade.
+    \item \textbf{Risk management:} Ensure stop-loss or other protective measures are in place.
+\end{itemize}
+
+\section{Back-Testing \& Results}
+\begin{itemize}
+    \item \textbf{Implement the strategy:} Simulate trades over your test period(s).
+    \item \textbf{Performance metrics:} 
+    \begin{itemize}
+        \item Sharpe ratio or Sortino ratio (risk-adjusted returns).
+        \item Win rate, total return, maximum drawdown, etc.
+    \end{itemize}
+    \item \textbf{Plots:} Provide time-series plots of:
+    \begin{itemize}
+        \item Asset price and trades marked (entry/exit).
+        \item Equity curve (portfolio value over time).
+        \item Feature values (optional).
+    \end{itemize}
+\end{itemize}
+
+\section{Conclusion}
+Summarize your findings, including:
+\begin{itemize}
+    \item Which features appeared most important based on the model.
+    \item Which hyperparameters or thresholds yielded the best performance.
+    \item Potential improvements (e.g., more data, different models, more advanced feature engineering).
+\end{itemize}
+
+\section{References}
+\begin{itemize}
+    \item Data source (e.g., Alpha Vantage, Yahoo Finance).
+    \item Any libraries or packages used (e.g., scikit-learn, xgboost, pandas).
+\end{itemize}
+
+\end{document}

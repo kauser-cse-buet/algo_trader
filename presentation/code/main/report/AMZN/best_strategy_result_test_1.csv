@@ -1,0 +1,2 @@
+,holding_period,take_profit,stop_loss,threshold,num_trades,win_rate,total_return,sharpe_ratio,num_trades_actual,win_rate_actual,total_return_actual,sharpe_ratio_actual
+59,240,0.01,-0.01,0.9,28,0.6785714285714286,0.10750648384996353,0.30863431283758963,262,0.732824427480916,4.350173481876686,0.48594597656095884
